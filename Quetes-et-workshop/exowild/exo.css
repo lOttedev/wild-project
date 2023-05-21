@@ -1,0 +1,59 @@
+/******GRID
+
+.grid {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(2, 300px);
+
+    grid-auto-rows: minmax(150px, auto);
+}
+
+
+.card{
+    background-color: lightseagreen;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.card:nth-child(1){
+    background-color: coral;
+    grid-column: 1 / span 2;
+}
+
+.card:nth-child(3){
+    background-color: coral;
+    grid-row: 2 / 4;
+}
+
+.card:nth-child(4){
+    background-color: coral;
+    grid-column: 2 / span 2;
+}
+
+.card:nth-child(7){
+    background-color: coral;
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 2;
+}*****/
+
+/******FLEXBOX*/
+
+.card1, .card2, .card3, .card4{
+width:200px;
+height: 200px;
+border: 1px solid blue;
+} 
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex1, .flex2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
